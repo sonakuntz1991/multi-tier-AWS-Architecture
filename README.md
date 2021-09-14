@@ -1,6 +1,5 @@
 # AWS_project
-
-A company has a client that is running a school site for their students. This client wants to run their application with the whole infrastructure on AWS.
+DSG has a client that is running a school site for their students. This client wants to run their application with the whole infrastructure on AWS.
 Basically, we need to build:
 - a vpc,
 - couple subnets
