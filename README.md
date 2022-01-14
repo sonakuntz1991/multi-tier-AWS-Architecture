@@ -1,4 +1,5 @@
-#Multi-tier AWS Architecture
+                                                           #Multi-tier AWS Architecture
+                                                           
 Data Service Group has a client that is running an e-commerce. This client wants to run their application with the whole infrastructure on AWS. Basically, we need to build a multi-tier architecture that is used in a client-server application such as a web application that has the frontend, the backend and the database. This architecture is a shift from the monolithic way of building an application where the frontend, the backend and the database  are all sitting in one place. With that, we need to take these into consideration. 
 Security: We want to design an infrastructure that is highly secured and protected from the prying eyes of bad actors. As much as possible, we want to avoid exposing our interactions within the application over the internet. This simply means that the application will communicate within themselves with a private IP. The backend and the database tier will also be in the private subnet because we do not want to expose them over the internet. We will set up the Bastion host for remote SSH and a NAT gateway for our private subnets to access the internet. 
 
